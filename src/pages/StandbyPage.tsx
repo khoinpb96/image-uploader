@@ -3,7 +3,7 @@ import { useRef } from "react";
 import styled from "styled-components";
 import Button from "../components/Button";
 import Title from "../components/Title";
-import { storage } from "../firebase";
+import { storage } from "../firebase.config";
 
 function StandbyPage(props: any) {
   const { setState, setPercent, setImgURL } = props.setters;
