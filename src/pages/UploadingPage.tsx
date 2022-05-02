@@ -17,8 +17,9 @@ const ProgressBar = styled.div<ProgressBarProps>`
     position: absolute;
     left: 0;
     height: 100%;
-    background-color: red;
     content: "";
+    background: #2f80ed;
+    border-radius: 8px;
 
     width: ${(props) => `${props.progress || 0}%`};
   }
