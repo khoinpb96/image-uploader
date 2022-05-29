@@ -37,6 +37,10 @@ $ git clone https://github.com/khoinpb96/image-uploader.git
 # Install dependencies
 $ yarn
 
+# Create the .env file and set below variables
+$ REACT_APP_APIKEY
+$ REACT_APP_APP_ID
+
 # Run the app
 $ yarn start
 ```
